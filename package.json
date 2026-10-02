@@ -1,0 +1,42 @@
+{
+  "name": "fullpageshot-mcp",
+  "version": "0.1.0",
+  "description": "MCP server that opens a website, captures a full-page screenshot (headless/background by default), and reads it back to the agent. Zero dependencies.",
+  "type": "module",
+  "license": "AGPL-3.0-only",
+  "bin": {
+    "fullpageshot-mcp": "src/server.mjs"
+  },
+  "exports": {
+    ".": "./src/server.mjs",
+    "./browser": "./src/browser.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node src/server.mjs",
+    "smoke": "node scripts/smoke.mjs"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "screenshot",
+    "full-page",
+    "capture-visible-tab",
+    "cdp",
+    "chrome-devtools-protocol",
+    "chrome",
+    "brave",
+    "agent"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TanasiDesigns/fullpageshot-mcp"
+  }
+}
