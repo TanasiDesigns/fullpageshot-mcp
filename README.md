@@ -117,4 +117,4 @@ Tested with Brave **154.0.8037.93** (Chromium 154) on macOS, headless. The CDP m
 
 ## License
 
-**AGPL-3.0-only** — see [LICENSE](LICENSE). You may use, modify and sell it, but any modified version you distribute or run as a network service must publish its source.
+**MIT** — see [LICENSE](LICENSE). Do whatever you want with it: use, modify, fork, sell, ship in your own product. Just keep the copyright notice.

@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "MCP server that opens a website, captures a full-page screenshot (headless/background by default), and reads it back to the agent. Zero dependencies.",
   "type": "module",
-  "license": "AGPL-3.0-only",
+  "license": "MIT",
   "bin": {
     "fullpageshot-mcp": "src/server.mjs"
   },
